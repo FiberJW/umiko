@@ -1,6 +1,6 @@
 {
   "name": "umiko",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "build/index.js",
   "author": "Juwan Wheatley",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "build": "tsc"
   },
   "peerDependencies": {
+    "expo-font": "*",
     "react": "*",
-    "react-native": "*",
-    "expo-font": "*"
+    "react-native": "*"
   }
 }
