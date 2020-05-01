@@ -1,0 +1,20 @@
+{
+  "name": "umiko",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "author": "Juwan Wheatley",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.32",
+    "@types/react-native": "^0.62.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
