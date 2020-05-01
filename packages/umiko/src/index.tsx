@@ -58,8 +58,6 @@ export const Text: React.FC<TextProps> = forwardRef<RNText, TextProps>(
       genCustomStyles(x as TextStyle)
     );
 
-    console.log({ styles });
-
     return <RNText ref={ref} style={styles} {...rest} />;
   }
 );
