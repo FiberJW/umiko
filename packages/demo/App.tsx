@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { ScrollView, StyleSheet } from "react-native";
 
 import { useTypefaces, Text } from "umiko";
 
@@ -7,16 +7,34 @@ export default function App() {
   const fontsLoaded = useTypefaces({ Inter: true });
 
   return fontsLoaded ? (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text
-        style={{
-          fontFamily: "Inter",
-          fontWeight: "100",
-          fontSize: 64,
-        }}
-      >
-        Inter 100
-      </Text>
-    </View>
+    <ScrollView
+      style={{ flex: 1, marginVertical: 48 }}
+      contentContainerStyle={{ justifyContent: "center", alignItems: "center" }}
+    >
+      {[
+        "normal",
+        "bold",
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900",
+      ].map((weight) => (
+        <Text
+          key={weight}
+          style={{
+            fontFamily: "Inter",
+            fontWeight: weight,
+            fontSize: 48,
+          }}
+        >
+          Inter {weight}
+        </Text>
+      ))}
+    </ScrollView>
   ) : null;
 }
