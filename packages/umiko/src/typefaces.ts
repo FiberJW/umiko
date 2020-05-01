@@ -28,7 +28,7 @@ type TypefaceConfigs = {
   };
 };
 
-const host = "https://github.com/FiberJW/umiko/raw/master";
+const host = "https://raw.githubusercontent.com/FiberJW/umiko/master";
 
 export const typefaces: TypefaceConfigs = {
   Inter: {

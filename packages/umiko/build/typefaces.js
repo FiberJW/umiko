@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var host = "https://github.com/FiberJW/umiko/raw/master";
+var host = "https://raw.githubusercontent.com/FiberJW/umiko/master";
 exports.typefaces = {
     Inter: {
         weightToFontFamilyNameMapping: {
