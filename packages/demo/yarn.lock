@@ -3181,11 +3181,6 @@ jsonify@~0.0.0:
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
   integrity sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=
 
-keitai@*:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/keitai/-/keitai-0.0.1.tgz#824ccd7c151eb1769cb1402859e380d2867f1ba1"
-  integrity sha512-hUM+ucp5VbFUZopPHKG0VUlYNjwCm8xLwpieRJw4ivcZ15b0Nifig+i6qoVzmTla9IQnCwQQvqtTzChzQForsA==
-
 kind-of@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-1.1.0.tgz#140a3d2d41a36d2efcfa9377b62c24f8495a5c44"
@@ -3287,9 +3282,9 @@ lodash.throttle@^4.1.1:
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.5.0, lodash@^4.6.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -5062,6 +5057,11 @@ ultron@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
   integrity sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
+
+umiko@~0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/umiko/-/umiko-0.1.1.tgz#b0897e257dd853881997b6fc2d32d91dc05a7fb5"
+  integrity sha512-X9WzEFj5nnJIS+NZ/k9d3re6bM92R1xBnV7r2xsuQM2rI219OwGSj5pWy4sxIR/pSuKSb0LA6tWQb3E9KkWTgg==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
